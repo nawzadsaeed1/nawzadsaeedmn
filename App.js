@@ -16,21 +16,21 @@ export default function App() {
 
       <View className='flex-row items-center space-x-2'>
       <Image className='w-24 h-24 rounded-full' source={{uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGHkVK5dzppscSCffwlfoxWPqiM5z-H_Yrig&usqp=CAU'}} />
-      <Text className='text-white text-base'>Panguine's Application</Text>
+      <Text className='text-white text-base'>Aryas Application</Text>
       </View>
 
 
 <View>
 <MyButton onPress={()=>{
-  Alert.alert("MyTitle","Welcome this page",
+  Alert.alert("For Sure","Are You Women",
   [
     {
       text:"Yes",
-      onPress:()=>{alert("OK")}
+      onPress:()=>{alert("I Know that hahahah")}
     },
     {
       text:"Cancle",
-      onPress:()=>{alert("Bye")}
+      onPress:()=>{alert("Oh, it means you are Women ")}
     }
   ])
 }} />
